@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 913779588
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dcd9122769e8b4b2c459ed91629a0020
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 685bc3f69ca9a98681862ac49d70216f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: dcd9122769e8b4b2c459ed91629a0020
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -1832953502, guid: 55a7c5278766598448d9083b0de0861d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Content/Craft/Parts/RocketEngines/Cycle_MVACgen.prefab
+- Assets/_ModAssets_/Real Engines.dll.bytes
+- Assets/Content/Craft/Parts/RocketEngines/Nozzle_MVACnoz.prefab
+- Assets/Content/Craft/Parts/RocketEngines/Propulsion.xml
+- Assets/Content/Craft/Parts/RocketEngines/Chamber_MVAC.prefab
+- Assets/_ModAssets_/ModManifest.xml.bytes
+Dependencies: []

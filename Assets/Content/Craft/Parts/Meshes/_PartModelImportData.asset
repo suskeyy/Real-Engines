@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2135884626, guid: c37b925f2b4978342b2e0b83a8fa404a, type: 3}
+  m_Name: _PartModelImportData
+  m_EditorClassIdentifier: 
+  _models:
+  - _id: MVAC
+    _meshes:
+    - _id: Chamber_MVAC
+      _initialized: 1
+      _isCollider: 0
+      _antiDistortion: 0
+      _mesh: {fileID: 4511593543146707955, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
+      _sortOrderOverride: 
+      _submeshMap: 00000000
+      _subpartId: 0
+    - _id: Cycle_MVAC
+      _initialized: 1
+      _isCollider: 0
+      _antiDistortion: 0
+      _mesh: {fileID: -1190343154634455614, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
+      _sortOrderOverride: 
+      _submeshMap: 00000000
+      _subpartId: 0
+    - _id: Nozzle_Base
+      _initialized: 1
+      _isCollider: 0
+      _antiDistortion: 0
+      _mesh: {fileID: 8752989541346105252, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
+      _sortOrderOverride: 
+      _submeshMap: 00000000
+      _subpartId: 0
+    - _id: Nozzle_MVAC
+      _initialized: 1
+      _isCollider: 0
+      _antiDistortion: 0
+      _mesh: {fileID: -8641476455864576966, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
+      _sortOrderOverride: 
+      _submeshMap: 00000000
+      _subpartId: 0
+    _model: {fileID: 919132149155446097, guid: c9b4acdd37379994cb974afd879384f6, type: 3}

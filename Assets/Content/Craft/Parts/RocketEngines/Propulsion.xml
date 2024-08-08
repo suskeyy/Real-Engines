@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<Propulsion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\..\..\..\ModTools\Parts\Propulsion.xsd">
+		<Fuels>
+			<Fuel id="TutorialFuelA" name="Tutorial Fuel A" gamma="1.22" density="10" molecularWeight="21.6" combustionTemperature="3526" price="1.14" explosivePower="25000" description="Tutorial Fuel A">
+				<Visual exhaustIntensity="1.0" exhaustDetailIntensity="3.0" exhaustColor="#FF0000FF" smokeIntensity="0.25" />
+			</Fuel>
+		</Fuels>
+		<RocketEngines>
+			<RocketEngine id="Liquid" name="Liquid" prefabId="Liquid" fuels="LOX/RP1,LOX/LH2,LOX/CH4,TutorialFuelA" nozzleRadiusScale="0.75" priceScale="2.5" textureStyleIds="RocketEngine_Type" subTextureStyleIds="RocketEngine_SubType">
+				<SubType id="MVACeng" name="Merlin 1D Vacuum" prefabId="MVAC" subPrefabId="MVACgen" chamberPressure="2.5" baseMass="10" massScale="3.5" efficiency="0.77" throttleResponse="2" baseScale="0.3" nozzles="Bell,Cone,Delta,Aerospike,MVACnoz" radius="1.5" gimbalRange="15" gimbalSpeed="3" basePrice="10000" audio="Small" />
+			</RocketEngine>
+		</RocketEngines>
+		<RocketNozzles>
+			<RocketNozzle id="MVACnoz" name="MVAC Nozzle" prefabId="MVACnoz" throatRadius="0.50" nozzleRadius="1.85" nozzleLength="3.813335" textureStyleIds="RocketEngine_Nozzle" />
+		</RocketNozzles>
+		<Grains/>
+	</Propulsion>

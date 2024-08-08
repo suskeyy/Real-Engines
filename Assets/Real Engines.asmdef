@@ -1,0 +1,8 @@
+{
+	"name": "Real Engines",
+	"references": [
+		"UnityEngine.UI",
+		"Unity.TextMeshPro",
+		"Unity.Mathematics"
+	]
+}
