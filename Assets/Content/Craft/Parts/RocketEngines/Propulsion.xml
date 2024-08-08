@@ -7,7 +7,7 @@
 		</Fuels>
 		<RocketEngines>
 			<RocketEngine id="Liquid" name="Liquid" prefabId="Liquid" fuels="LOX/RP1,LOX/LH2,LOX/CH4,TutorialFuelA" nozzleRadiusScale="0.75" priceScale="2.5" textureStyleIds="RocketEngine_Type" subTextureStyleIds="RocketEngine_SubType">
-				<SubType id="MVACeng" name="Merlin 1D Vacuum" prefabId="MVAC" subPrefabId="MVACgen" chamberPressure="2.5" baseMass="10" massScale="3.5" efficiency="0.77" throttleResponse="2" baseScale="0.3" nozzles="Bell,Cone,Delta,Aerospike,MVACnoz" radius="1.5" gimbalRange="15" gimbalSpeed="3" basePrice="10000" audio="Small" />
+				<SubType id="MVACeng" name="Merlin 1D Vacuum" prefabId="MVAC" subPrefabId="MVACgen" chamberPressure="2.5" baseMass="10" massScale="3.5" efficiency="0.77" throttleResponse="2" baseScale="0.3" nozzles="MVACnoz" radius="1.5" gimbalRange="15" gimbalSpeed="3" basePrice="10000" audio="Small" />
 			</RocketEngine>
 		</RocketEngines>
 		<RocketNozzles>
