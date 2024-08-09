@@ -123,11 +123,35 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &176585049 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2166225890552446009, guid: 59596136318d82c499f2ce11f2be9ade, type: 3}
+  m_PrefabInstance: {fileID: 2251561798571489821}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &176585050 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 235563892685080571, guid: 59596136318d82c499f2ce11f2be9ade, type: 3}
   m_PrefabInstance: {fileID: 2251561798571489821}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &176585054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176585049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 212942404, guid: 43320b5f70320504aa4b1543184e13b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _excludeFromDragModel: 0
+  _excludeFromMeshCombine: 0
+  _excludeFromPartMaterials: 1
+  _renderQueue: 0
+  _usesAlphaOverride: 0
+  _usesEmissiveOverride: 0
+  _isDepthMask: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,10 +423,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chamber_MVAC
       objectReference: {fileID: 0}
+    - target: {fileID: 7941223030508056231, guid: 59596136318d82c499f2ce11f2be9ade, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3cd4afef8d4dabb40ab870cec1101bf0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2166225890552446009, guid: 59596136318d82c499f2ce11f2be9ade, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 176585054}
   m_SourcePrefab: {fileID: 100100000, guid: 59596136318d82c499f2ce11f2be9ade, type: 3}
 --- !u!1001 &5167442321340341477
 PrefabInstance:
@@ -416,6 +447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nozzle_MVACnoz
       objectReference: {fileID: 0}
+    - target: {fileID: 2425526176435380966, guid: d0fead8cb93380149a4b089152a7b6a4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3cd4afef8d4dabb40ab870cec1101bf0, type: 2}
     - target: {fileID: 2925649324907263949, guid: d0fead8cb93380149a4b089152a7b6a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -456,16 +491,74 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4152240761895095357, guid: d0fead8cb93380149a4b089152a7b6a4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3cd4afef8d4dabb40ab870cec1101bf0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1879162525591332812, guid: d0fead8cb93380149a4b089152a7b6a4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5167442321340341482}
+    - targetCorrespondingSourceObject: {fileID: 7808671224587563829, guid: d0fead8cb93380149a4b089152a7b6a4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5167442321340341481}
   m_SourcePrefab: {fileID: 100100000, guid: d0fead8cb93380149a4b089152a7b6a4, type: 3}
 --- !u!4 &5167442321340341478 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2925649324907263949, guid: d0fead8cb93380149a4b089152a7b6a4, type: 3}
   m_PrefabInstance: {fileID: 5167442321340341477}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5167442321340341479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7808671224587563829, guid: d0fead8cb93380149a4b089152a7b6a4, type: 3}
+  m_PrefabInstance: {fileID: 5167442321340341477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5167442321340341480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1879162525591332812, guid: d0fead8cb93380149a4b089152a7b6a4, type: 3}
+  m_PrefabInstance: {fileID: 5167442321340341477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5167442321340341481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5167442321340341479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 212942404, guid: 43320b5f70320504aa4b1543184e13b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _excludeFromDragModel: 0
+  _excludeFromMeshCombine: 0
+  _excludeFromPartMaterials: 1
+  _renderQueue: 0
+  _usesAlphaOverride: 0
+  _usesEmissiveOverride: 0
+  _isDepthMask: 0
+--- !u!114 &5167442321340341482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5167442321340341480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 212942404, guid: 43320b5f70320504aa4b1543184e13b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _excludeFromDragModel: 0
+  _excludeFromMeshCombine: 0
+  _excludeFromPartMaterials: 1
+  _renderQueue: 0
+  _usesAlphaOverride: 0
+  _usesEmissiveOverride: 0
+  _isDepthMask: 0
 --- !u!1001 &7447073431344245710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -518,11 +611,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cycle_MVACgen
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4820437160049687433, guid: f7ad135b5d085dd438eef377b3488b6a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3cd4afef8d4dabb40ab870cec1101bf0, type: 2}
+    m_RemovedComponents:
+    - {fileID: 5695972498922558368, guid: f7ad135b5d085dd438eef377b3488b6a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8431525248781110380, guid: f7ad135b5d085dd438eef377b3488b6a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7447073431344245712}
   m_SourcePrefab: {fileID: 100100000, guid: f7ad135b5d085dd438eef377b3488b6a, type: 3}
+--- !u!1 &7447073431344245711 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8431525248781110380, guid: f7ad135b5d085dd438eef377b3488b6a, type: 3}
+  m_PrefabInstance: {fileID: 7447073431344245710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7447073431344245712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7447073431344245711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 212942404, guid: 43320b5f70320504aa4b1543184e13b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _excludeFromDragModel: 0
+  _excludeFromMeshCombine: 0
+  _excludeFromPartMaterials: 1
+  _renderQueue: 0
+  _usesAlphaOverride: 0
+  _usesEmissiveOverride: 0
+  _isDepthMask: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

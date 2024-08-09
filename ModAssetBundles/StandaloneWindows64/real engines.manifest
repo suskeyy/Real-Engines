@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 829398885
+CRC: 3897149394
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 73e458e455b4a27f961825b86b333a5b
+    Hash: e73e0757c148c8aed6b418e0525ba675
   TypeTreeHash:
     serializedVersion: 2
     Hash: 685bc3f69ca9a98681862ac49d70216f
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 73e458e455b4a27f961825b86b333a5b
+    Hash: e73e0757c148c8aed6b418e0525ba675
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -37,10 +37,9 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Content/Craft/Parts/RocketEngines/Cycle_MVACgen.prefab
-- Assets/_ModAssets_/Real Engines.dll.bytes
 - Assets/Content/Craft/Parts/RocketEngines/Nozzle_MVACnoz.prefab
 - Assets/Content/Craft/Parts/RocketEngines/Propulsion.xml
 - Assets/Content/Craft/Parts/RocketEngines/Chamber_MVAC.prefab
-- Assets/Content/Craft/Parts/Meshes/MVAC.fbx
+- Assets/_ModAssets_/Real Engines.dll.bytes
 - Assets/_ModAssets_/ModManifest.xml.bytes
 Dependencies: []

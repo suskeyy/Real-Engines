@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 899569971482635205}
   - component: {fileID: 690227738626942552}
+  - component: {fileID: -6542473022101214008}
   m_Layer: 0
   m_Name: Cycle_MVACgen
   m_TagString: Untagged
@@ -49,6 +50,14 @@ MonoBehaviour:
   _bottomLocalY: 0
   _boundsSize: {x: 0, y: 0, z: 0}
   _startLocalY: 0
+--- !u!33 &-6542473022101214008
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4317081896329795610}
+  m_Mesh: {fileID: -1190343154634455614, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
 --- !u!1 &8431525248781110380
 GameObject:
   m_ObjectHideFlags: 0

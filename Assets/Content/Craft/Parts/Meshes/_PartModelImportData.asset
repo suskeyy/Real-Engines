@@ -21,7 +21,7 @@ MonoBehaviour:
       _antiDistortion: 0
       _mesh: {fileID: 4511593543146707955, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
       _sortOrderOverride: 
-      _submeshMap: 00000000
+      _submeshMap: 03000000
       _subpartId: 0
     - _id: Cycle_MVAC
       _initialized: 1
@@ -29,15 +29,7 @@ MonoBehaviour:
       _antiDistortion: 0
       _mesh: {fileID: -1190343154634455614, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
       _sortOrderOverride: 
-      _submeshMap: 00000000
-      _subpartId: 0
-    - _id: Nozzle_Base
-      _initialized: 1
-      _isCollider: 0
-      _antiDistortion: 0
-      _mesh: {fileID: 8752989541346105252, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
-      _sortOrderOverride: 
-      _submeshMap: 00000000
+      _submeshMap: 01000000
       _subpartId: 0
     - _id: Nozzle_MVAC
       _initialized: 1
@@ -45,6 +37,14 @@ MonoBehaviour:
       _antiDistortion: 0
       _mesh: {fileID: -8641476455864576966, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
       _sortOrderOverride: 
-      _submeshMap: 00000000
+      _submeshMap: 02000000
+      _subpartId: 0
+    - _id: Nozzle_Base
+      _initialized: 1
+      _isCollider: 0
+      _antiDistortion: 0
+      _mesh: {fileID: 8752989541346105252, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
+      _sortOrderOverride: 
+      _submeshMap: 03000000
       _subpartId: 0
     _model: {fileID: 919132149155446097, guid: c9b4acdd37379994cb974afd879384f6, type: 3}

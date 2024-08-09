@@ -3,11 +3,16 @@ guid: c9b4acdd37379994cb974afd879384f6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 3cd4afef8d4dabb40ab870cec1101bf0, type: 2}
   materials:
     materialImportMode: 0
-    materialName: 0
-    materialSearch: 1
+    materialName: 2
+    materialSearch: 2
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
@@ -105,10 +110,10 @@ ModelImporter:
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: <PartModelData><PartMeshData id="Chamber_MVAC" submeshCount="1" isCollider="false"
-    subpartId="0" submeshMap="0" antiDistortion="false" /><PartMeshData id="Cycle_MVAC"
-    submeshCount="1" isCollider="false" subpartId="0" submeshMap="0" antiDistortion="false"
+    subpartId="0" submeshMap="3" antiDistortion="false" /><PartMeshData id="Cycle_MVAC"
+    submeshCount="1" isCollider="false" subpartId="0" submeshMap="1" antiDistortion="false"
     /><PartMeshData id="Nozzle_Base" submeshCount="1" isCollider="false" subpartId="0"
-    submeshMap="0" antiDistortion="false" /><PartMeshData id="Nozzle_MVAC" submeshCount="1"
-    isCollider="false" subpartId="0" submeshMap="0" antiDistortion="false" /></PartModelData>
+    submeshMap="3" antiDistortion="false" /><PartMeshData id="Nozzle_MVAC" submeshCount="1"
+    isCollider="false" subpartId="0" submeshMap="2" antiDistortion="false" /></PartModelData>
   assetBundleName: 
   assetBundleVariant: 

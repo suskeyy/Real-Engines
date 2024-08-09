@@ -7,11 +7,11 @@
 		</Fuels>
 		<RocketEngines>
 			<RocketEngine id="Liquid" name="Liquid" prefabId="Liquid" fuels="LOX/RP1,LOX/LH2,LOX/CH4,TutorialFuelA" nozzleRadiusScale="0.75" priceScale="2.5" textureStyleIds="RocketEngine_Type" subTextureStyleIds="RocketEngine_SubType">
-				<SubType id="MVACeng" name="Merlin 1D Vacuum" prefabId="MVAC" subPrefabId="MVACgen" chamberPressure="2.5" baseMass="10" massScale="3.5" efficiency="0.77" throttleResponse="2" baseScale="0.3" nozzles="MVACnoz" radius="1.5" gimbalRange="15" gimbalSpeed="3" basePrice="10000" audio="Small" />
+				<SubType id="MVACeng" name="Merlin 1D Vacuum" prefabId="MVAC" subPrefabId="MVACgen" chamberPressure="9.7" baseMass="10" massScale="3.5" efficiency="1" throttleResponse="2" baseScale="1" nozzles="MVACnoz" radius="1.5" gimbalRange="10" gimbalSpeed="8" basePrice="340000" audio="Small" />
 			</RocketEngine>
 		</RocketEngines>
 		<RocketNozzles>
-			<RocketNozzle id="MVACnoz" name="MVAC Nozzle" prefabId="MVACnoz" throatRadius="0.50" nozzleRadius="1.85" nozzleLength="3.813335" textureStyleIds="RocketEngine_Nozzle" />
+			<RocketNozzle id="MVACnoz" name="MVAC Nozzle" prefabId="MVACnoz" throatRadius="0.14" nozzleRadius="1.25" nozzleLength="2.7" textureStyleIds="RocketEngine_Nozzle" />
 		</RocketNozzles>
 		<Grains/>
 	</Propulsion>
