@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3897149394
+CRC: 3400370295
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e73e0757c148c8aed6b418e0525ba675
+    Hash: a769e8a82a10a4044d1c939427fe3a8d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 685bc3f69ca9a98681862ac49d70216f
+    Hash: 3bb0fdcd3828fed5dc1b781bdffe373e
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: e73e0757c148c8aed6b418e0525ba675
+    Hash: a769e8a82a10a4044d1c939427fe3a8d
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -20,6 +20,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 23
   Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
 - Class: 33
   Script: {instanceID: 0}
 - Class: 43
@@ -28,8 +30,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 49
   Script: {instanceID: 0}
-- Class: 64
-  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 212942404, guid: 43320b5f70320504aa4b1543184e13b2, type: 3}
 - Class: 114
   Script: {fileID: -1832953502, guid: 55a7c5278766598448d9083b0de0861d, type: 3}
 - Class: 115
@@ -37,6 +39,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Content/Craft/Parts/RocketEngines/Cycle_MVACgen.prefab
+- Assets/Materials/New Material.mat
 - Assets/Content/Craft/Parts/RocketEngines/Nozzle_MVACnoz.prefab
 - Assets/Content/Craft/Parts/RocketEngines/Propulsion.xml
 - Assets/Content/Craft/Parts/RocketEngines/Chamber_MVAC.prefab
