@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 83076757
+CRC: 1357198308
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 979b7889d3793027ff437557f5f77295
+    Hash: 99d3070eef30599ed2d5a237617765c9
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c24af59f366bee0df459a4636a58e402
+    Hash: e07545b9224608f101d2f37e3cb8e3f9
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 979b7889d3793027ff437557f5f77295
+    Hash: 99d3070eef30599ed2d5a237617765c9
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -30,12 +30,16 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 49
   Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 212942404, guid: 43320b5f70320504aa4b1543184e13b2, type: 3}
 - Class: 114
   Script: {fileID: 2121057919, guid: 43320b5f70320504aa4b1543184e13b2, type: 3}
 - Class: 114
   Script: {fileID: -1832953502, guid: 55a7c5278766598448d9083b0de0861d, type: 3}
+- Class: 114
+  Script: {fileID: 772243918, guid: 55a7c5278766598448d9083b0de0861d, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 213
@@ -43,6 +47,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Content/Craft/Parts/RocketEngines/Nozzle_Raptor3SLnoz.prefab
+- Assets/Content/Craft/Parts/RocketEngines/Audio_Raptor.prefab
 - Assets/Content/Craft/Parts/RocketEngines/Chamber_Raptor3SL.prefab
 - Assets/_ModAssets_/Real Engines.dll.bytes
 - Assets/_ModAssets_/ModManifest.xml.bytes

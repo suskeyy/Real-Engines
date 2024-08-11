@@ -3,12 +3,12 @@
   <DesignerPart name="Raptor V3 Sea Level" category="RealEngines" description="The Third Iteration of the SpaceX Raptor Engine, powering future Iterations of Starship, Todays most Powerful Rocket" order="1" showInDesigner="true">
     <Assembly xmlVersion="15">
       <Parts>
-        <Part id="7" partType="RocketEngine1" position="9.536743E-07,0,2.384186E-07" rotation="9.659347E-06,-2.035557E-13,-8.14222E-13" name="Pixie Engine" activationStage="0" materials="0,1,2,3,4" engineTypeTexture="RocketEngine_Type" subTypeTexture="RocketEngine_SubType" nozzleTexture="RocketEngine_Nozzle">
-          <Drag drag="1.214165,1.214163,0.5508078,0.6514735,1.214171,1.214174" area="1.63033,1.63033,1.454402,1.570918,1.631114,1.631114" />
-          <Config heatShieldScale="0" massScale="0.6" occlusion="Never" partCollisionHandling="Never" partCollisionResponse="None" renderQueue="BeforeDepthMask" supportsTransparency="false" />
-          <RocketEngine engineSubTypeId="Raptor3SL" fuelType="LOX/CH4" nozzleSize="2" nozzleThroatSize="0.125" nozzleTypeId="Raptor3SLnoz" wattsPerFuelFlowOverride="-1" ignited="false" ignitionsOverride="-1" ignitionsUsed="0" heatTransferOverride="1" exhaustColorExpanded="Default" mass="26.1827736" price="71797253" />
-          <InputController inputId="Throttle" />
-        </Part>
+		  <Part id="5" partType="RocketEngine1" position="-1.907349E-06,-9.536743E-07,0" rotation="9.659347E-06,-5.008957E-06,-1.144574E-12" name="Raptor v3 SL Engine" activationStage="0" materials="0,1,2,3,4" engineTypeTexture="RocketEngine_Type" subTypeTexture="RocketEngine_SubType" nozzleTexture="RocketEngine_Nozzle">
+			  <Drag drag="0,0,0,0,0,0" area="0,0,0,0,0,0" />
+			  <Config heatShieldScale="0" massScale="0.6" renderQueue="Transparent" supportsTransparency="false" />
+			  <RocketEngine engineSubTypeId="Raptor3SL" fuelType="LOX/CH4" nozzleSize="2" nozzleThroatSize="0.125" nozzleTypeId="Raptor3SLnoz" wattsPerFuelFlowOverride="-1" ignited="false" ignitionsOverride="-1" ignitionsUsed="0" heatTransferOverride="1" exhaustColorExpanded="Default" mass="23.4916611" price="71797253" />
+			  <InputController inputId="Throttle" />
+		  </Part>
       </Parts>
       <Connections />
       <Collisions />

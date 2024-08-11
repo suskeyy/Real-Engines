@@ -99,7 +99,7 @@ MonoBehaviour:
   _excludeFromDragModel: 0
   _excludeFromMeshCombine: 0
   _excludeFromPartMaterials: 1
-  _renderQueue: 0
+  _renderQueue: 1
   _usesAlphaOverride: 0
   _usesEmissiveOverride: 0
   _isDepthMask: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
   _excludeFromDragModel: 0
   _excludeFromMeshCombine: 0
   _excludeFromPartMaterials: 1
-  _renderQueue: 0
+  _renderQueue: 1
   _usesAlphaOverride: 0
   _usesEmissiveOverride: 0
   _isDepthMask: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
   _excludeFromDragModel: 0
   _excludeFromMeshCombine: 0
   _excludeFromPartMaterials: 1
-  _renderQueue: 0
+  _renderQueue: 1
   _usesAlphaOverride: 0
   _usesEmissiveOverride: 0
   _isDepthMask: 0
