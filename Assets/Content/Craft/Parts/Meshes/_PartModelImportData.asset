@@ -15,22 +15,6 @@ MonoBehaviour:
   _models:
   - _id: MVAC
     _meshes:
-    - _id: Chamber_MVAC
-      _initialized: 1
-      _isCollider: 0
-      _antiDistortion: 0
-      _mesh: {fileID: 4511593543146707955, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
-      _sortOrderOverride: 
-      _submeshMap: 03000000
-      _subpartId: 0
-    - _id: Cycle_MVAC
-      _initialized: 1
-      _isCollider: 0
-      _antiDistortion: 0
-      _mesh: {fileID: -1190343154634455614, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
-      _sortOrderOverride: 
-      _submeshMap: 01000000
-      _subpartId: 0
     - _id: Nozzle_MVAC
       _initialized: 1
       _isCollider: 0
@@ -47,4 +31,55 @@ MonoBehaviour:
       _sortOrderOverride: 
       _submeshMap: 03000000
       _subpartId: 0
+    - _id: Cycle_MVAC
+      _initialized: 1
+      _isCollider: 0
+      _antiDistortion: 0
+      _mesh: {fileID: -1190343154634455614, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
+      _sortOrderOverride: 
+      _submeshMap: 01000000
+      _subpartId: 0
+    - _id: Chamber_MVAC
+      _initialized: 1
+      _isCollider: 0
+      _antiDistortion: 0
+      _mesh: {fileID: 4511593543146707955, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
+      _sortOrderOverride: 
+      _submeshMap: 03000000
+      _subpartId: 0
     _model: {fileID: 919132149155446097, guid: c9b4acdd37379994cb974afd879384f6, type: 3}
+  - _id: Raptor
+    _meshes:
+    - _id: Chamber_Raptor
+      _initialized: 1
+      _isCollider: 0
+      _antiDistortion: 0
+      _mesh: {fileID: -6609807855696464775, guid: 31fc33134191ff143a361cd3e3668b64, type: 3}
+      _sortOrderOverride: 
+      _submeshMap: 0000000001000000
+      _subpartId: 0
+    - _id: Cycle_Raptor3SL
+      _initialized: 1
+      _isCollider: 0
+      _antiDistortion: 0
+      _mesh: {fileID: 434163529951417887, guid: 31fc33134191ff143a361cd3e3668b64, type: 3}
+      _sortOrderOverride: 
+      _submeshMap: 000000000100000002000000
+      _subpartId: 0
+    - _id: Nozzle_Base
+      _initialized: 1
+      _isCollider: 0
+      _antiDistortion: 0
+      _mesh: {fileID: 8752989541346105252, guid: 31fc33134191ff143a361cd3e3668b64, type: 3}
+      _sortOrderOverride: 
+      _submeshMap: 00000000
+      _subpartId: 0
+    - _id: Nozzle_Raptor3SL
+      _initialized: 1
+      _isCollider: 0
+      _antiDistortion: 0
+      _mesh: {fileID: -6460762209796936542, guid: 31fc33134191ff143a361cd3e3668b64, type: 3}
+      _sortOrderOverride: 
+      _submeshMap: 00000000
+      _subpartId: 0
+    _model: {fileID: 919132149155446097, guid: 31fc33134191ff143a361cd3e3668b64, type: 3}
