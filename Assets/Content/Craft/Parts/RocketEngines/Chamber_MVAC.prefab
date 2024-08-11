@@ -98,9 +98,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bottomAdjustment: 0
-  _bottomLocalY: 1.2538773
-  _boundsSize: {x: 3.5, y: 5, z: 3.5}
-  _startLocalY: 2.1371765
+  _bottomLocalY: 1.1535671
+  _boundsSize: {x: 3, y: 4.2, z: 3}
+  _startLocalY: 1.9662023
 --- !u!114 &2016734805421632039
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1816726300
+CRC: 83076757
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1506b9ac82c14aa02272bf8f49209cfe
+    Hash: 979b7889d3793027ff437557f5f77295
   TypeTreeHash:
     serializedVersion: 2
     Hash: c24af59f366bee0df459a4636a58e402
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 1506b9ac82c14aa02272bf8f49209cfe
+    Hash: 979b7889d3793027ff437557f5f77295
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -47,10 +47,11 @@ Assets:
 - Assets/_ModAssets_/Real Engines.dll.bytes
 - Assets/_ModAssets_/ModManifest.xml.bytes
 - Assets/Content/Craft/Parts/RocketEngines/Cycle_MVACgen.prefab
-- Assets/Content/Craft/Parts/RocketEngines/Nozzle_MVACnoz.prefab
 - Assets/Content/Craft/Parts/DesignerParts/Raptor V3 Sea Level.xml
+- Assets/Content/Craft/Parts/DesignerParts/Merlin 1D Vacuum.xml
 - Assets/Content/Craft/Parts/RocketEngines/Propulsion.xml
 - Assets/Content/Craft/Parts/RocketEngines/Chamber_MVAC.prefab
 - Assets/Content/Craft/Parts/RocketEngines/Cycle_Raptor3SLgen.prefab
+- Assets/Content/Craft/Parts/RocketEngines/Nozzle_MVACnoz.prefab
 - Assets/Content/Craft/Parts/Categories/PartCategoryNew.asset
 Dependencies: []

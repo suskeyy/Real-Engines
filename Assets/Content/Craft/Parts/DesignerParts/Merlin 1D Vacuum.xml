@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DesignerParts>
+  <DesignerPart name="Merlin 1D Vacuum" category="RealEngines" description="The Merlin 1D Vacuum Engine, used on the Upper Stage of the Falcon 9 Rocket, Designed specifically for operation in Vacuum." order="1" showInDesigner="true">
+    <Assembly xmlVersion="15">
+      <Parts>
+        <Part id="3" partType="RocketEngine1" position="0,0,0" rotation="0,0,0" name="Mage Engine" activationStage="0" materials="0,1,2,3,4" engineTypeTexture="RocketEngine_Type" subTypeTexture="RocketEngine_SubType" nozzleTexture="RocketEngine_Nozzle">
+          <Drag drag="1.72193,1.68642,0,0.6003003,1.960895,1.961139" area="2.332167,2.332167,0,1.250366,2.671641,2.671641" />
+          <Config heatShieldScale="0" massScale="0.42608" supportsTransparency="false" />
+          <RocketEngine engineSubTypeId="MVACeng" nozzleThroatSize="0.1546" nozzleTypeId="MVACnoz" thrustOverride="1.014" wattsPerFuelFlowOverride="-1" ignited="false" ignitionsOverride="-1" ignitionsUsed="0" heatTransferOverride="1" exhaustColorExpanded="Default" mass="11.492238" price="23105686" />
+          <InputController inputId="Throttle" />
+        </Part>
+      </Parts>
+      <Connections />
+      <Collisions />
+      <Bodies />
+    </Assembly>
+  </DesignerPart>
+</DesignerParts>

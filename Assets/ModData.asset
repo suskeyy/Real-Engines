@@ -15,17 +15,26 @@ MonoBehaviour:
   _assemblies:
   - Real Engines.dll
   _author: suskey
-  _description: assada
+  _description: 'This mod adds Engines From Real life to Juno New Origins.
+
+
+    "Merlin
+    1D Vacuum" (https://skfb.ly/6RBww) by MartianDays is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+
+    "SpaceX
+    Starship Raptor 3 engine" (https://skfb.ly/p7CWA) by VoitAa is licensed under
+    Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).'
   _loadPriority: 1000
   _name: Real Engines
-  _otherAssets:
-  - {fileID: 4900000, guid: 00104da1f2ec89b4ca70a6b3e2c61a3c, type: 3}
+  _otherAssets: []
   _prefabs:
   - {fileID: 2166225890552446009, guid: 59596136318d82c499f2ce11f2be9ade, type: 3}
   - {fileID: 6435479684971704751, guid: 754d8ccff459d024f8e1362c440e86ab, type: 3}
   - {fileID: 4317081896329795610, guid: f7ad135b5d085dd438eef377b3488b6a, type: 3}
   - {fileID: 5339428643535580437, guid: a66123466033a15429076204f29661b8, type: 3}
-  - {fileID: 1633559147944403269, guid: d0fead8cb93380149a4b089152a7b6a4, type: 3}
+  - {fileID: 2081366639732996515, guid: 7181680f18907dc4f9200c4e68af2fdc, type: 3}
   - {fileID: 2619734637393358461, guid: 5e19e6559598d8945bd11b098c9f6209, type: 3}
   _steamDescription: 
   _steamLanguage: English
@@ -37,7 +46,9 @@ MonoBehaviour:
   _versionMinor: 1
   _partCategories:
   - {fileID: 11400000, guid: b10ce5be87f79d3428952c66d9b6bfbf, type: 2}
-  _parts: []
+  _parts:
+  - {fileID: 4900000, guid: b13b2e27535f01946b14b3110cc5ed62, type: 3}
+  - {fileID: 4900000, guid: 00104da1f2ec89b4ca70a6b3e2c61a3c, type: 3}
   _partStyleExtensions: []
   _partTextureStyles: []
   _persistentObjects: []

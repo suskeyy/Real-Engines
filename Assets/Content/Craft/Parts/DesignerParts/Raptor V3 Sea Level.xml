@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DesignerParts>
-  <DesignerPart name="Raptor V3 Sea Level" category="Propulsion" description="The Third Iteration of the SpaceX Raptor Engine. It powers Starship and its Booster, Superheavy." order="0" showInDesigner="true">
+  <DesignerPart name="Raptor V3 Sea Level" category="RealEngines" description="The Third Iteration of the SpaceX Raptor Engine, powering future Iterations of Starship, Todays most Powerful Rocket" order="1" showInDesigner="true">
     <Assembly xmlVersion="15">
       <Parts>
         <Part id="7" partType="RocketEngine1" position="9.536743E-07,0,2.384186E-07" rotation="9.659347E-06,-2.035557E-13,-8.14222E-13" name="Pixie Engine" activationStage="0" materials="0,1,2,3,4" engineTypeTexture="RocketEngine_Type" subTypeTexture="RocketEngine_SubType" nozzleTexture="RocketEngine_Nozzle">
