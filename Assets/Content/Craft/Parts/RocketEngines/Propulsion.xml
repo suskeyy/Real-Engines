@@ -3,16 +3,16 @@
 		<Fuels>
 		</Fuels>
 		<RocketEngines>
-			<RocketEngine id="Liquid" name="Liquid" prefabId="Liquid" fuels="LOX/RP1" nozzleRadiusScale="0.75" priceScale="2.5" textureStyleIds="RocketEngine_Type" subTextureStyleIds="RocketEngine_SubType">
-				<SubType id="MVACeng" name="Merlin 1D Vacuum" prefabId="MVAC" subPrefabId="MVACgen" chamberPressure="9.7" baseMass="490" massScale="0.92" efficiency="1" throttleResponse="2" baseScale="1" nozzles="MVACnoz" radius="1" gimbalRange="10" gimbalSpeed="8" gimbalId="" basePrice="340000" audio="Small" />
+			<RocketEngine id="Liquid" name="Liquid" prefabId="Liquid" fuels="LOX/RP1" nozzleRadiusScale="1" priceScale="2.5" textureStyleIds="RocketEngine_Type" subTextureStyleIds="RocketEngine_SubType">
+				<SubType id="MVACeng" name="Merlin 1D Vacuum" prefabId="MVAC" subPrefabId="MVACgen" chamberPressure="9.72" baseMass="490" massScale="1" efficiency="1" throttleResponse="2" baseScale="1" nozzles="MVACnoz" radius="1" gimbalRange="10" gimbalSpeed="8" gimbalId="" basePrice="340000" audio="Small" />
 			</RocketEngine>
-			<RocketEngine id="Liquid" name="Liquid" prefabId="Liquid" fuels="LOX/CH4" nozzleRadiusScale="0.75" priceScale="2.5" textureStyleIds="RocketEngine_Type" subTextureStyleIds="RocketEngine_SubType">
-				<SubType id="Raptor3SL" name="Raptor v3 Sea Level" prefabId="Raptor3SL" subPrefabId="Raptor3SLgen" chamberPressure="32" baseMass="1525" massScale="0.6" efficiency="1" throttleResponse="2" baseScale="1" nozzles="Raptor3SLnoz" radius="1" gimbalRange="15" gimbalSpeed="10" gimbalId="" basePrice="340000" audio="Raptor" />
+			<RocketEngine id="Liquid" name="Liquid" prefabId="Liquid" fuels="LOX/CH4" nozzleRadiusScale="1" priceScale="2.5" textureStyleIds="RocketEngine_Type" subTextureStyleIds="RocketEngine_SubType">
+				<SubType id="Raptor3SL" name="Raptor v3 Sea Level" prefabId="Raptor3SL" subPrefabId="Raptor3SLgen" chamberPressure="30" baseMass="1000" massScale="1" efficiency="1" throttleResponse="2" baseScale="1" nozzles="Raptor3SLnoz" radius="1" gimbalRange="15" gimbalSpeed="10" gimbalId="" basePrice="340000" audio="Raptor" />
 			</RocketEngine>
 		</RocketEngines>
 		<RocketNozzles>
-			<RocketNozzle id="MVACnoz" name="MVAC Nozzle" prefabId="MVACnoz" throatRadius="1.12" nozzleRadius="1.25" nozzleLength="2.7" textureStyleIds="RocketEngine_Nozzle" />
-			<RocketNozzle id="Raptor3SLnoz" name="Raptor SL Nozzle" prefabId="Raptor3SLnoz" throatRadius="1.22" nozzleRadius="0.7" nozzleLength="1.7" textureStyleIds="RocketEngine_Nozzle" />
+			<RocketNozzle id="MVACnoz" name="MVAC Nozzle" prefabId="MVACnoz" throatRadius="0.12" nozzleRadius="1.42" nozzleLength="2.7" textureStyleIds="RocketEngine_Nozzle" />
+			<RocketNozzle id="Raptor3SLnoz" name="Raptor SL Nozzle" prefabId="Raptor3SLnoz" throatRadius="0.13" nozzleRadius="0.65" nozzleLength="1.2" textureStyleIds="RocketEngine_Nozzle" />
 		</RocketNozzles>
 		<Grains/>
 	</Propulsion>

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 4190906510
+CRC: 3080419533
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 683c73298a07b77f18b57fdf0e72a829
+    Hash: fabb40524ff3c5f06419fef066c0c761
   TypeTreeHash:
     serializedVersion: 2
     Hash: cc44ad800f815dbbbf7d2f01613ea5e3
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 683c73298a07b77f18b57fdf0e72a829
+    Hash: fabb40524ff3c5f06419fef066c0c761
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -46,12 +46,11 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Content/Craft/Parts/RocketEngines/Nozzle_Raptor3SLnoz.prefab
 - Assets/Content/Craft/Parts/RocketEngines/Audio_Raptor.prefab
+- Assets/Content/Craft/Parts/RocketEngines/Nozzle_Raptor3SLnoz.prefab
 - Assets/Content/Craft/Parts/RocketEngines/Chamber_Raptor3SL.prefab
 - Assets/Content/Craft/Parts/RocketEngines/Cycle_MVACgen.prefab
 - Assets/_ModAssets_/Real Engines.dll.bytes
-- Assets/_ModAssets_/ModManifest.xml.bytes
 - Assets/Content/Craft/Parts/DesignerParts/Raptor V3 Sea Level.xml
 - Assets/Content/Craft/Parts/DesignerParts/Merlin 1D Vacuum.xml
 - Assets/Content/Craft/Parts/RocketEngines/Propulsion.xml
@@ -59,4 +58,5 @@ Assets:
 - Assets/Content/Craft/Parts/RocketEngines/Cycle_Raptor3SLgen.prefab
 - Assets/Content/Craft/Parts/RocketEngines/Nozzle_MVACnoz.prefab
 - Assets/Content/Craft/Parts/Categories/PartCategoryNew.asset
+- Assets/_ModAssets_/ModManifest.xml.bytes
 Dependencies: []
